@@ -491,7 +491,8 @@ margin-bottom: 9px;
 
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1428;
+    text-transform: uppercase;
     letter-spacing: 0.03em;
 }
 
@@ -513,6 +514,48 @@ margin-bottom: 9px;
 .footer-social-link:focus{
     background-color: var(--accent-color);
 }
+
+
+.form{
+    margin-left: 93px;
+}
+
+.input-mail{
+    background-color: transparent;
+    color: #FFFFFF;
+    width: 358px;
+    height: 50px;
+
+    padding: 15px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+
+}
+
+.button-mail{ 
+   
+
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+    width: 200px;
+    height: 50px;
+    
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 0;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;   
+}
+
+.icon-send{
+    margin-left: 10px;
+}
+
 
 /* portfolio.html */
 
