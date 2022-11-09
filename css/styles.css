@@ -170,7 +170,7 @@ img{
     text-decoration: none;
 }
 
-.icon-phone{
+.icon-smartphone{
     margin-right: 10px;
 }
 
@@ -694,7 +694,7 @@ margin-bottom: 9px;
     line-height: 1.8;
     margin: 0;
 }
-
+/* Модальне вікно */
 .modal{
     display: flex;
     justify-content: center;
@@ -731,7 +731,38 @@ margin-bottom: 9px;
                 0px 2px 1px rgba(0, 0, 0, 0.2);
     
 }
-/* Модальне вікно */
+.modal-label{
+    position:relative;
+}
+.icon-form{
+    fill: red;
+    position: absolute;
+    z-index: 50;
+    top: 27px;
+    left: 5px;
+}
+
+
+.form-title{
+    margin-bottom: 2px;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.1666;
+    letter-spacing: 0.01em;
+}
+.modal-input {
+    margin-bottom: 10px;
+    padding: 12px 16px;
+    width: 100%;
+    height: 40px;
+}
+ .modal-textarea{
+    padding: 12px 16px;
+    width: 100%;
+    height: 120px;
+ }
+
 .close-button{
     position: absolute;
 
@@ -745,8 +776,26 @@ margin-bottom: 9px;
     border-radius: 50%; 
     border:1px solid rgba(0, 0, 0, 0.1);
 
-    margin-top: 8px;
-    margin-right: 8px;
+    top: 8px;
+    right: 8px;
+}
+
+.send-buttom{
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+    border: 0;
+
+    display: block;
+    margin: 0 auto;
+    padding: 10px 52px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
 .is-hidden {
