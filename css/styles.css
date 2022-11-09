@@ -792,6 +792,10 @@ margin-bottom: 9px;
 
 .modal-input:hover{
     border: 1px solid #2196F3;
+    
+}
+.modal-input:focus{
+    outline: transparent;
 }
 
 .modal-input:focus-visible{
@@ -810,6 +814,18 @@ margin-bottom: 9px;
     border-radius: 4px;
 
  }
+ .modal-textarea:hover,
+ .modal-textarea:focus,
+ .modal-textarea:focus-visible{
+    border: 1px solid #2196F3;
+    outline: transparent;
+ }
+
+
+  .modal-textarea:focus{
+
+      outline: transparent;
+  }
 
 .checkbox-label{
     display: flex;
