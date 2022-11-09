@@ -405,11 +405,37 @@
 
       <div class="modal is-hidden" data-modal>
         <div class="modal-window">
+
+          
           <button class="close-button" data-modal-close type="button">
             <svg class="icon icon-close" width="11" height="11">
               <use xlink:href="./images/icons.svg#icon-close"></use>
             </svg>
           </button>
+
+          <form name="">
+            <h2>Залиште свої дані, ми вам передзвонимо</h2>
+            <label for="name">
+              <h4>Ім'я</h4>
+              <input placeholder="" type="text" name="name" id="name" />
+            </label>
+            <label for="phone">
+              <h4>Телефон</h4>
+              <input placeholder="" type="number" name="phone" id="phone" />
+            </label>
+            <label for="mail">
+              <h4>Пошта</h4>
+              <input  placeholder="" type="email" name="mail" id="mail" />
+            </label>
+            <label for="comit">
+              <h4>Коментар</h4>
+              <textarea name="comit" id="" cols="30" rows="10"></textarea>
+            </label>
+            <label for="checkbox">
+              <input type="checkbox" name="checkbox" id="checkbox" />
+              <p>Погоджуюся з розсилкою та приймаю a Умови договору</p>
+            </label>
+          </form>
         </div>
       </div>
     </main>
@@ -484,13 +510,15 @@
 
         <div class="form">
           <h2 class="social-title">Підпишіться на розсилку</h2>
-          <form name="subscribe">
+          <form class="test" name="subscribe">
             <label for="mail">
               <input class="input-mail" placeholder="E-mail" type="mail" name="mail" id="mail" />
-              <button class="button-mail" type="submit">
-                Підписатися<svg class="icon icon-send" width="24" height="24"><use xlink:href="./images/icons.svg#icon-send"></use></svg>
-              </button>
             </label>
+            <button class="button-mail" type="submit">
+              Підписатися<svg class="icon icon-send" width="24" height="24">
+                <use xlink:href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
