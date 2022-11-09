@@ -763,10 +763,12 @@ margin-bottom: 9px;
     z-index: 50;
     top: 26px;
     left: 6px;
-
-   
 }
 
+.icon-form:hover{
+    fill: var(--accent-color);
+    
+}
 
 .form-title{
     color: var(--basic-color);
@@ -789,6 +791,10 @@ margin-bottom: 9px;
 }
 
 .modal-input:hover{
+    border: 1px solid #2196F3;
+}
+
+.modal-input:focus-visible{
     border: 1px solid #2196F3;
 }
  .modal-textarea{
@@ -818,6 +824,10 @@ margin-bottom: 9px;
     line-height: 1.71;
     letter-spacing: 0.03em;  
 
+}
+
+.checkbox-label .link{
+    color: var(--accent-color);
 }
 
 
