@@ -695,6 +695,23 @@ margin-bottom: 9px;
     margin: 0;
 }
 /* Модальне вікно */
+.close-button {
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+    top: 8px;
+    right: 8px;
+}
+
 .modal{
     display: flex;
     justify-content: center;
@@ -733,52 +750,76 @@ margin-bottom: 9px;
 }
 .modal-label{
     position:relative;
-}
-.icon-form{
-    fill: red;
-    position: absolute;
-    z-index: 50;
-    top: 27px;
-    left: 5px;
-}
 
-
-.form-title{
     margin-bottom: 2px;
-
+    
     font-weight: 400;
     font-size: 12px;
     line-height: 1.1666;
     letter-spacing: 0.01em;
 }
-.modal-input {
+.icon-form{
+    position: absolute;
+    z-index: 50;
+    top: 26px;
+    left: 6px;
+
+   
+}
+
+
+.form-title{
+    color: var(--basic-color);
+    margin-bottom: 12px;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.modal-input{
     margin-bottom: 10px;
-    padding: 12px 16px;
+    padding: 12px 30px;
     width: 100%;
     height: 40px;
+
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+
+.modal-input:hover{
+    border: 1px solid #2196F3;
 }
  .modal-textarea{
+    resize: none; 
+
     padding: 12px 16px;
     width: 100%;
     height: 120px;
+
+    margin-bottom: 20px;
+
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+
  }
 
-.close-button{
-    position: absolute;
-
+.checkbox-label{
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    
-    width: 30px;
-    height: 30px;
-    border-radius: 50%; 
-    border:1px solid rgba(0, 0, 0, 0.1);
+    gap: 8px;
 
-    top: 8px;
-    right: 8px;
+    margin-bottom: 30px;
+
+    color: var(--title-text-color);
+
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;  
+
 }
+
 
 .send-buttom{
     background-color: var(--accent-color);
