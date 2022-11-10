@@ -776,7 +776,13 @@ margin-bottom: 9px;
 }
 
 .title-span{
-    color: var(--title-text-color)
+    display: block;
+    color: var(--title-text-color);
+    margin-bottom: 4px;
+}
+
+.input-block{
+    position: relative;
 }
 
 .modal-label:focus-within .icon-form{
@@ -786,8 +792,8 @@ margin-bottom: 9px;
 .icon-form{
     position: absolute;
     z-index: 50;
-    top: 26px;
-    left: 6px;
+    top: 9px;
+    left: 12px;
 }
 
 
@@ -919,5 +925,5 @@ margin-bottom: 9px;
 
 .checkbox-input:focus+.checkbox {
     box-sizing: content-box;
-    border: 3px solid #000000;
+    outline: 5px #000000;
 }

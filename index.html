@@ -139,7 +139,8 @@
           <h2 class="section-title team-title">Наша команда</h2>
           <ul class="team list">
             <li class="item">
-              <img class="image"
+              <img
+                class="image"
                 src="./images/product_designer.jpg"
                 alt="Ігор Дем'яненко - Product Designer"
                 width="270"
@@ -414,29 +415,34 @@
             <h2 class="form-title">Залиште свої дані, ми вам передзвонимо</h2>
             <label class="modal-label" for="name">
               <span class="title-span">Ім'я</span>
+              <div class="input-block">
+                <svg class="icon icon-form" width="18" height="18">
+                  <use xlink:href="./images/icons.svg#icon-person"></use>
+                </svg>
+              </div>
               <input class="modal-input" placeholder="" type="text" name="name" id="name" />
-              <svg class="icon icon-form" width="18" height="18">
-                <use xlink:href="./images/icons.svg#icon-person"></use>
-              </svg>
             </label>
             <label class="modal-label" for="phone">
               <span class="title-span">Телефон</span>
-              <input class="modal-input" placeholder="" type="tel" name="phone" id="phone" />
-              <svg class="icon icon-form" width="18" height="18">
-                <use xlink:href="./images/icons.svg#icon-phone"></use>
-              </svg>
+              <div class="input-block">
+                <input class="modal-input" placeholder="" type="tel" name="phone" id="phone" />
+                <svg class="icon icon-form" width="18" height="18">
+                  <use xlink:href="./images/icons.svg#icon-phone"></use>
+                </svg>
+              </div>
             </label>
             <label class="modal-label" for="mail">
-             <span class="title-span">Пошта</span>
-              <input class="modal-input" placeholder="" type="email" name="mail" id="mail" />
-              <svg class="icon icon-form" width="18" height="18">
-                <use xlink:href="./images/icons.svg#icon-email"></use>
-              </svg>
+              <span class="title-span">Пошта</span>
+              <div class="input-block">
+                <input class="modal-input" placeholder="" type="email" name="mail" id="mail" />
+                <svg class="icon icon-form" width="18" height="18">
+                  <use xlink:href="./images/icons.svg#icon-email"></use>
+                </svg>
+              </div>
             </label>
 
-            
             <label class="modal-label" for="comit">
-             <span class="title-span">Коментар</span>
+              <span class="title-span">Коментар</span>
               <textarea
                 class="modal-textarea"
                 placeholder="Введіть текст"
@@ -447,13 +453,13 @@
               ></textarea>
             </label>
 
-            <label class="checkbox-label" for="checkbox">        
-              <input class="checkbox-input hidden " type="checkbox" name="checkbox" id="checkbox" />
+            <label class="checkbox-label" for="checkbox">
+              <input class="checkbox-input hidden" type="checkbox" name="checkbox" id="checkbox" />
               <span class="checkbox"></span>
-              Погоджуюся з розсилкою та приймаю <a class="link" target="_blank" rel="noopener noreferrer" href="#">Умови договору</a>
-              
+              Погоджуюся з розсилкою та приймаю
+              <a class="link" target="_blank" rel="noopener noreferrer" href="#">Умови договору</a>
             </label>
-            
+
             <button class="send-buttom" type="submit">Відправити</button>
           </form>
         </div>
