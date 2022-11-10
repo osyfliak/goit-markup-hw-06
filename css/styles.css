@@ -924,6 +924,5 @@ margin-bottom: 9px;
 
 
 .checkbox-input:focus+.checkbox {
-    box-sizing: content-box;
-    outline: 5px #000000;
+outline-style: auto;
 }
